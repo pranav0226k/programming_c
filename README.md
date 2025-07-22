@@ -1,7 +1,6 @@
 # programming_c
 Practice programs in c.
-# c_program
-C Journey
+
 
 1. Hello World
 
