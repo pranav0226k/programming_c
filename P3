@@ -1,0 +1,12 @@
+Program 3: Your task is to take two numbers of int data type, two numbers of float data type as input and output their sum:
+
+#include <stdio.h>
+
+void main(){
+    int a=111, b=99;
+    float c=10, d=10;
+    scanf("%d %d",&a,&b);
+    scanf("%f %f",&c, &d);
+    printf("%d %d\n",a+b,a-b);   
+    printf("%.1f %.1f\n",c+d,c-d);
+}
