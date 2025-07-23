@@ -1,0 +1,28 @@
+Program 14: Amstrong Number.
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+    int n, copy, original, sum=0, digit=0;
+    printf("enter n");
+    scanf("%d",&n);
+    original=n;
+    copy=n;
+    while (copy>0){
+        digit++;
+        copy=copy/10;
+    }
+    copy=n;
+    while (copy>0){
+        int rem=copy%10;
+        sum = sum + pow(rem, digit);
+        copy=copy/10;
+    }
+    if (sum==original){
+        printf("Amstrong number.");
+    } 
+    else {
+        printf("not an Amstrong number.");
+    }
+    return 0;
+}
