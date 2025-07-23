@@ -1,0 +1,21 @@
+Program 15: Palindrome Number
+#include <stdio.h>
+
+void main(){
+    int n, rev=0, copy;
+    printf("Enter n:");
+    scanf("%d",&n);
+
+    copy=n;
+    while(copy>0){
+        rev=rev*10;
+        rev=rev+(copy%10);
+        copy=copy/10;
+    }
+    printf("%d\n",rev);
+    if (n==rev){
+        printf("palindrome");
+    } else {
+        printf("Not palindrome");
+    }
+}
