@@ -52,16 +52,18 @@ Practice programs in c.
 
 25. Factorial using recursive function
 
-26. Bitwise Operators
+26. Pointers
 
-27. printing patterns using loops
+27. Bitwise Operators
 
-28. 1D array
+28. printing patterns using loops
 
-29. Array reversal
+29. 1D array
 
-30. Printing tokens
+30. Array reversal
 
-31. Digit frequency
+31. Printing tokens
 
-32. Dynamic array
+32. Digit frequency
+
+33. Dynamic array
