@@ -58,14 +58,4 @@ Practice programs in c.
 
 28. printing patterns using loops
 
-29. 1D array
-
-30. Array reversal
-
-31. Printing tokens
-
-32. Digit frequency
-
-33. Dynamic array
-
-34. Swap 2 numbers - call by value / call by reference
+29. Swap 2 numbers - call by value / call by reference
