@@ -67,3 +67,5 @@ Practice programs in c.
 32. Digit frequency
 
 33. Dynamic array
+
+34. Swap 2 numbers - call by value / call by reference
